@@ -5,13 +5,13 @@ Academic Tasks!!!
 <h2>Saya Desy Syahfitriani, berharap anda menemukan informasi yang anda butuhkan di website ini.
 
 <h3><a href="https://wa.me/6281263237575">Contact Us</a>
+    
 <h4>
-</head>
 <body>
     <table border="1">
         <tr>
-            <th rowspan="1" bgcolor="blue">Tugas</th>
-            <th colspan="2" bgcolor="#00ff80">Tengembangan Web</th>  
+            <th rowspan="1" bgcolor="C7AO7A">Tugas</th>
+            <th colspan="2" bgcolor="C7AO7A">Pengembangan Web</th>  
         </tr>
         <tr>
             <td>Pertemuan 1</td>
