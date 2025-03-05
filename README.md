@@ -7,7 +7,7 @@
 </p>
 <a href="https://library.usu.ac.id"/>Perpustakaan USU</a>
 </body>
-</html>
+
 
 <h4><i>Home page </i></h4>
   <ul>
