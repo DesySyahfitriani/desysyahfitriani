@@ -1,51 +1,23 @@
-Academic Tasks!!!
-
-<h1>Halo sobat!! Selamat Berkunjung dan mengeksplorasi
-
-<h2>Saya Desy Syahfitriani, berharap anda menemukan informasi yang anda butuhkan di website ini.
-
-<h3><a href="https://wa.me/6281263237575">Contact Us</a>
-    
-<h4>
+<head> 
+</head>
 <body>
-    <table border="1">
-        <tr>
-            <th rowspan="1" bgcolor="C7AO7A">Tugas</th>
-            <th colspan="2" bgcolor="C7AO7A">Pengembangan Web</th>  
-        </tr>
-        <tr>
-            <td>Pertemuan 1</td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>Pertemuan 2</td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>Pertemuan 3</td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>Pertemuan 4</td>
-            <td></td>
-            <td></td>
-        </tr>
-    </table>
+<h1>About Desy </h1>
+<h2>Halo sobat!! Selamat Berkunjung dan mengeksplorasi</h2>
+<p>Saya Desy Syahfitriani, berharap anda menemukan informasi yang anda butuhkan di website ini.
+</p>
+<a href="https://library.usu.ac.id"/>Perpustakaan USU</a>
+</body>
+</html>
 
-<!--
-**DesySyahfitriani/desysyahfitriani** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<h4><i>Home page </i></h4>
+  <ul>
+    <li>
+       <a href="about.html">About Me</a>
+    </li>
+    <li>
+       <a href="contact-us.html">Contact Us</a>
+    </li>
+  <ul>
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  
+ 
