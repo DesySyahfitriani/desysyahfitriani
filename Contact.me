@@ -4,80 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #ffeb3b;
-            text-align: center;
-            margin: 0;
-            padding: 20px;
-        }
-        .container {
-            width: 50%;
-            margin: auto;
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 20px;
-        }
-        th, td {
-            border: 1px solid #ddd;
-            padding: 10px;
-            text-align: left;
-        }
-        th {
-            background-color: #007bff;
-            color: white;
-        }
-        input, textarea {
-            width: 100%;
-            padding: 8px;
-            margin-top: 5px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-        }
-        button {
-            background-color: #007bff;
-            color: white;
-            padding: 10px 15px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            margin-top: 10px;
-        }
-        button:hover {
-            background-color: #0056b3;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
 
-    <div class="container">
-        <h2>Contact Us</h2>
-        <form action="#" method="POST">
-            <table>
-                <tr>
-                    <th>Nama</th>
-                    <td><input type="text" name="nama" placeholder="Masukkan Nama Anda" required></td>
-                </tr>
-                <tr>
-                    <th>Email</th>
-                    <td><input type="email" name="email" placeholder="Masukkan Email Anda" required></td>
-                </tr>
-                <tr>
-                    <th>Pesan</th>
-                    <td><textarea name="pesan" rows="4" placeholder="Tulis Pesan Anda" required></textarea></td>
-                </tr>
-            </table>
-            <button type="submit">Kirim</button>
-        </form>
-    </div>
-
+    <h2>Contact Us</h2>
+    <form action="#" method="POST">
+        <table>
+            <tr>
+                <th>Nama</th>
+                <td><input type="text" name="nama" placeholder="Masukkan Nama Anda" required></td>
+            </tr>
+            <tr>
+                <th>Email</th>
+                <td><input type="email" name="email" placeholder="Masukkan Email Anda" required></td>
+            </tr>
+            <tr>
+                <th>Pesan</th>
+                <td><textarea name="pesan" rows="4" placeholder="Tulis Pesan Anda" required></textarea></td>
+            </tr>
+        </table>
+        <button type="submit">Kirim</button>
+    </form>
 </body>
 </html>
 
