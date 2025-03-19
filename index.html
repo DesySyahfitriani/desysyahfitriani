@@ -15,11 +15,11 @@
     <style>
         /* Body */
         body {
-            background-color: #FAF3F0;
+            background-color: #FAF3F0; /* Putih kasar */
             margin: 0;
             font-family: Arial, sans-serif;
             font-size: 14px; /* Ukuran font untuk body */
-            padding-top: 80px; /* Menambahkan padding agar konten tidak tertutup oleh header */
+            padding-top: 80px; /* Agar konten tidak tertutup oleh header */
         }
 
         /* Header */
@@ -34,7 +34,7 @@
             top: 0;
             left: 0;
             width: 100%;
-            z-index: 1000; /* Memastikan header berada di atas konten lainnya */
+            z-index: 1000; /* Agar tetap di atas */
         }
 
         /* Navigation */
@@ -49,14 +49,15 @@
             text-decoration: none;
             margin-left: 10px;
             font-weight: bold;
-            font-size: 12px; /* Ukuran font untuk navigasi */
+            font-size: 12px;
             padding: 8px 12px;
+            border-radius: 5px;
+            transition: 0.3s;
         }
 
         nav a:hover {
             background-color: #FAF3F0;
             color: #964F4C;
-            border-radius: 5px;
         }
 
         /* Container */
@@ -75,7 +76,7 @@
         h2 {
             text-align: center;
             color: #964F4C;
-            font-size: 24px; /* Ukuran font untuk judul utama */
+            font-size: 24px;
         }
 
         /* External link */
@@ -103,7 +104,7 @@
             position: relative;
             bottom: 0;
             width: 100%;
-            font-size: 14px; /* Ukuran font untuk footer */
+            font-size: 14px;
         }
 
         /* Search Container */
@@ -117,7 +118,7 @@
             width: 60%;
             border-radius: 5px;
             border: 1px solid #ccc;
-            font-size: 14px; /* Ukuran font untuk input */
+            font-size: 14px;
         }
 
         .search-container button {
@@ -128,7 +129,7 @@
             border-radius: 5px;
             cursor: pointer;
             margin-left: 10px;
-            font-size: 14px; /* Ukuran font untuk button */
+            font-size: 14px;
         }
 
         .search-container button:hover {
@@ -151,16 +152,18 @@
 
     <!-- Main Content -->
     <div class="container">
-        <h1>Selamat Datang!</h1>
-
+        <h1>Selamat Datang di Perpustakaan Saya!</h1>
+        <button onclick="sayHalo()">Klik!</button>
         <p>
-            Perkenalkan, nama saya <b>Desy Syahfitrini</b>. Saya Mahasiswa Program Studi Perpustakaan & Sains Informasi Universitas Sumatera Utara. Tujuan pembuatan website ini untuk memenuhi tugas mata kuliah pengembangan web dan website ini merupakan website pertama saya. Berharap anda mendapatkan informasi yang anda butuhkan melalui website ini.
+            Perkenalkan, nama saya <b>Desy Syahfitriani</b>. Saya Mahasiswa Program Studi Perpustakaan & Sains Informasi Universitas Sumatera Utara. Tujuan pembuatan website ini untuk memenuhi tugas mata kuliah pengembangan web dan website ini merupakan website pertama saya. Berharap anda mendapatkan informasi yang anda butuhkan melalui website ini.
         </p>
 
-    <!-- External Link -->
-    <div class="external-link">
-         <h1 class="text-3xl font-bold text-center mb-5">Kerja Sama</h1>
-            <p class="text-gray-700 text-center">Perpustakaan ini bekerja sama dengan <a href="https://umsu.ac.id/" class="text-blue-600 font-semibold">Perpustakaan UMSU</a></p>
+        <!-- External Link -->
+        <div class="external-link">
+            <a href="https://umsu.ac.id/" target="_blank">Kunjungi Perpustakaan UMSU</a>
+        </div>
+        <br>
+    </div>
 
      <!-- Footer -->
     <div class="footer">
@@ -185,11 +188,6 @@
             }
         }
     </script>
-</body>
-
-</html>
-
-
 </body>
 
 </html>
