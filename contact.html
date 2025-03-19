@@ -5,21 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
     <style>
-        /* Warna Latar Belakang */
+        /* Background */
         body {
-            background-color: #F5F5F5; /* Putih Kasar */
-            color: #4A1C1C; /* Merah Marun Soft */
+            background: linear-gradient(to bottom, #8B0000, #FFF5F5); /* Merah marun soft ke putih kasar */
             font-family: Arial, sans-serif;
             text-align: center;
             margin: 0;
             padding: 0;
         }
 
-        /* Navigasi */
+        /* Navbar */
         nav {
-            background-color: #8B0000; /* Merah Marun */
-            padding: 10px 0;
+            background-color: #600000; /* Merah marun lebih gelap */
+            padding: 10px;
         }
+
         nav ul {
             list-style: none;
             padding: 0;
@@ -27,51 +27,68 @@
             display: flex;
             justify-content: center;
         }
+
         nav ul li {
             margin: 0 15px;
         }
+
         nav ul li a {
-            text-decoration: none;
             color: white;
+            text-decoration: none;
             font-weight: bold;
         }
 
-        /* Formulir */
-        .form-container {
+        /* Container untuk form */
+        .container {
             background: white;
             padding: 20px;
             width: 50%;
-            margin: 20px auto;
+            margin: 50px auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
             border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
+
+        /* Tabel */
         table {
+            margin: 0 auto;
             width: 100%;
-            margin: 10px auto;
+            border-collapse: collapse;
         }
+
         th, td {
             padding: 10px;
+            border: 1px solid #600000;
             text-align: left;
         }
+
+        /* Form Input */
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #600000;
+            border-radius: 5px;
+        }
+
+        /* Tombol Submit */
         button {
             background-color: #8B0000;
             color: white;
-            padding: 10px 20px;
+            padding: 10px 15px;
             border: none;
-            cursor: pointer;
             border-radius: 5px;
+            cursor: pointer;
         }
+
         button:hover {
-            background-color: #A52A2A;
+            background-color: #600000;
         }
 
         /* Footer */
         .footer {
-            background-color: #8B0000;
+            background: #600000;
             color: white;
-            text-align: center;
             padding: 10px;
-            position: relative;
+            position: absolute;
             bottom: 0;
             width: 100%;
         }
@@ -86,12 +103,9 @@
         </ul>
     </nav>
 
-    <h2>Contact Us</h2>
-    
     <div class="container">
-        <p>Jika terdapat pertanyaan, keluhan ataupun saran. Silahkan hubungi kami melalui kontak dibawah</p>
-        
-        <form action="mailto:desysyahfitriani640@gmail.com" method="post" enctype="text/plain">
+        <h2>Contact Us</h2>
+        <form action="#" method="POST">
             <table>
                 <tr>
                     <th>Nama</th>
@@ -110,9 +124,7 @@
         </form>
     </div>
 
-    <p class="text-gray-700 text-center">Hubungi saya melalui email <a href="mailto:desysyahfitriani640@gmail.com" class="text-[#800000] font-semibold">desysyahfitriani640@gmail.com</a> untuk informasi lebih lanjut.</p>
-
-
+    <!-- Footer -->
     <div class="footer">
         &copy; 2025 Perpustakaan Desy Syahfitriani
     </div>
