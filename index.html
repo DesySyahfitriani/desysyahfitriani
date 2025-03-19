@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="id">
+    
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +12,6 @@
             alert("Welcome to Perpustakaan Desy Syahfitriani");
         };
     </script>
-        
     <style>
         /* Body */
         body {
@@ -39,25 +39,25 @@
 
         /* Navigation */
         nav {
-            background-color: #964F4C; /* Marun soft */
-            padding: 10px 0;
-            text-align: center;
+            position: absolute;
+            top: 10px;
+            right: 20px;
         }
 
         nav a {
-        color: white;
-        text-decoration: none;
-        font-weight: bold;
-        font-size: 16px;
-        margin: 0 15px;
-        padding: 10px 15px;
-        border-radius: 5px;
-        transition: 0.3s;
+            color: white;
+            text-decoration: none;
+            margin-left: 10px;
+            font-weight: bold;
+            font-size: 12px;
+            padding: 8px 12px;
+            border-radius: 5px;
+            transition: 0.3s;
         }
 
         nav a:hover {
-        background-color: #D17B74;
-        color: white;
+            background-color: #FAF3F0;
+            color: #964F4C;
         }
 
         /* Container */
@@ -137,48 +137,36 @@
         }
     </style>
 </head>
+
 <body>
 
     <!-- Header -->
-    <header class="icon-container">
-        <h1>Perpustakaan Desy Syahfitriani</h1>
+    <div class="header">
+        Perpustakaan Desy
         <nav>
-            <ul>
-               <li><a href='/'>Homepage</a></li>
-               <li><a href='/about'>About Me</a></li>
-               <li><a href='/contact'>Contact Us</a></li>
-           </ul>
+            <a href="index.html">Homepage</a>
+            <a href="contact.html">About Me</a>
+            <a href="biodata.html">Contact Me</a>
         </nav>
-    </header>
-
-    <!-- Main Content -->
-    </style>
-</head>
-<body class="bg-gray-100 flex flex-col items-center justify-center min-h-screen">
-
-    
-    <!-- Animasi teks -->
-    <h1 class="text-3xl font-bold text-gray-800 fade-in">Selamat Datang di Perpustakaan</h1>
-    <!-- Ikon Buku dengan Animasi -->
-    <div class="mt-5">
-        <i class="fas fa-book-open text-6xl text-red-500 book-icon"></i>
     </div>
 
-</body>
-</html>
+    <!-- Main Content -->
+    <div class="container">
+        <h1>Selamat Datang di Perpustakaan Saya!</h1>
+        <button onclick="sayHalo()">Klik Here!</button>
         <p>
-            Perkenalkan, nama saya <b>Desy Syahfitriani</b>. Saya Mahasiswa Program Studi Perpustakaan & Sains Informasi Universitas Sumatera Utara. Tujuan pembuatan website ini untuk memenuhi tugas mata kuliah pengembangan web dan website ini merupakan website pertama saya. Berharap anda mendapatkan informasi yang anda butuhkan melalui website ini.
+            Hallooo!! Saya <b>Desy Syahfitriani</b>. Mahasiswa Program Studi Perpustakaan & Sains Informasi, Fakultas Ilmu Budaya, Universitas Sumatera Utara. Sebagai pemula, ini merupakan website pertama saya, yang mana website ini dibuat untuk memenuhi tugas mata kuliah pengembangan web. Anda bebas mengeksplorasi dan berharap mendapatkan informasi yang anda butuhkan melalui website ini.
         </p>
 
-    <!-- External Link -->
+        <!-- External Link -->
         <div class="external-link">
-             <p class="text-gray-700 text-center">Perpustakaan ini bekerja sama dengan<a href="https://umsu.ac.id/">Perpustakaan UMSU.</a>Jangan lewatkan berita terbaru dari website ini dengan menjelajahi setiap koleksi terbarunya.</p>
+             <p class="text-gray-700 text-center">Perpustakaan ini bekerja sama dengan<a href="https://umsu.ac.id/">Perpustakaan UMSU.</a>
         </div>
         <br>
     </div>
-
     
-<section id="collection">
+
+    <section id="collection">
         <h2 class="text-2xl font-semibold text-center mt-6">Koleksi Digital</h2>
 
     <!-- Container Buku -->
@@ -210,7 +198,7 @@
 
     </div>
 
-    <!-- Footer -->
+     <!-- Footer -->
     <div class="footer">
         &copy; 2025 Perpustakaan Desy Syahfitriani
     </div>
