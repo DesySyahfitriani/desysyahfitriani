@@ -4,14 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perpustakaan Desy Syahfitriani</title>
+    <title><h1 class="text-5xl font-bold text-center mt-10">Perpustakaan Desy Syahfitriani</h1>
+        
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
+        
     <script>
         window.onload = function() {
             alert("Welcome to Perpustakaan Desy Syahfitriani");
         };
     </script>
+        
     <style>
         /* Body */
         body {
@@ -144,23 +147,25 @@
     <div class="header">
         Perpustakaan Desy
         <nav>
-            <a href="index.html">Homepage</a
-            <a href="About.me">About Me</a>
-            <a href="Contact.me">Contact Me</a>
-        </nav>
+            <a href="index.html">Homepage</a>
+            <a href="about.html">About Me</a>
+            <a href="contact.html">Contact Me</a>
+       </nav>
     </div>
+
+</body>
+</html>
 
     <!-- Main Content -->
     <div class="container">
         <h1>Selamat Datang di Perpustakaan Saya!</h1>
-        <button onclick="sayHalo()">Klik!</button>
         <p>
             Perkenalkan, nama saya <b>Desy Syahfitriani</b>. Saya Mahasiswa Program Studi Perpustakaan & Sains Informasi Universitas Sumatera Utara. Tujuan pembuatan website ini untuk memenuhi tugas mata kuliah pengembangan web dan website ini merupakan website pertama saya. Berharap anda mendapatkan informasi yang anda butuhkan melalui website ini.
         </p>
 
         <!-- External Link -->
         <div class="external-link">
-            <a href="https://umsu.ac.id/" target="_blank">Kunjungi Perpustakaan UMSU</a>
+             <p class="text-gray-700 text-center">Perpustakaan ini bekerja sama dengan <a href="https://umsu.ac.id/">Perpustakaan UMSU</a></p>
         </div>
         <br>
     </div>
@@ -168,7 +173,7 @@
     
 
 <section id="collection">
-        <h2><center>Koleksi Digital</center></h2>
+        <h2 class="text-4xl font-semibold text-center mt-6">Koleksi Digital</h2>
         <p><center><input type="text" id="search" placeholder="Cari buku..." onkeyup="searchBook()"></center></p>
 
     <!-- Container Buku -->
